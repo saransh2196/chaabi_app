@@ -1,3 +1,5 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 .top-header {
   width: auto;
   height: 145px;
@@ -10,7 +12,7 @@
 }
 #main {
   /* H1 bold */
-  padding: 25px 25px 5px 20px ;
+  padding: 25px 25px 5px 20px;
   font-family: "Poppins";
   font-size: 48px;
   font-style: normal;
@@ -29,6 +31,90 @@
   line-height: 140%;
   text-transform: capitalize;
 }
-.body{
-    display: flex;
+.body {
+  display: flex;
+  margin: 10px;
+}
+.piechart-main {
+  display: flex;
+  margin: 10px;
+  width: 310px;
+  height: 413px;
+  padding: 20px 17.315px 21.644px 17.315px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.329px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px #b4ceff;
+}
+.bar-main {
+  width: 996px;
+  height: 413px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 7.0496907234191895px 28.198762893676758px 0px
+    rgba(0, 0, 0, 0.05);
+  display: flex;
+}
+.bargraph-main {
+  width: 950px;
+  height: 413px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  padding: 5px;
+  margin: 10px;
+}
+
+.bargraph-2 {
+  width: 589px;
+  height: 302px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+}
+.second-row {
+  display: flex;
+  margin: 10px;
+}
+
+.third-row {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.list-1 {
+  width: 316px;
+  height: 302px;
+  margin-left: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+}
+.piechart {
+  width: 350px;
+  height: 302px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 11.997173309326172px 29.99612045288086px 0px
+    rgba(47, 50, 125, 0.1);
+}
+
+.pie-para .bar-para .double-donut-para .bargraph-2{
+  color: #333;
+
+  /* H5 */
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 21px */
+  text-transform: capitalize;
 }
