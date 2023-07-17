@@ -1,9 +1,8 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 .top-header {
   width: auto;
-  height: 145px;
-  border-radius: 0px 0px 10px 10px;
+  height: 14.5rem;
+  border-radius: 0rem 0rem 1rem 1rem;
   background: #0c58e6;
 }
 .top-name {
@@ -12,9 +11,9 @@
 }
 #main {
   /* H1 bold */
-  padding: 25px 25px 5px 20px;
+  padding: 2.5rem 2.5rem 0.5rem 2rem;
   font-family: "Poppins";
-  font-size: 48px;
+  font-size: 4.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
@@ -23,9 +22,9 @@
 #second {
   color: #fff;
 
-  padding: 5px 25px 5px 30px;
+  padding: 0.5rem 2.5rem 0.5rem 3rem;
   font-family: Poppins;
-  font-size: 19px;
+  font-size: 1.9rem;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -33,88 +32,137 @@
 }
 .body {
   display: flex;
-  margin: 10px;
+  margin: 1rem;
 }
 .piechart-main {
   display: flex;
-  margin: 10px;
-  width: 310px;
-  height: 413px;
-  padding: 20px 17.315px 21.644px 17.315px;
+  margin: 1rem;
+  width: 31rem;
+  height: 41.3rem;
+  padding: 2rem 1.7315rem 2.1644rem 1.7315rem;
   flex-direction: column;
   align-items: center;
-  gap: 4.329px;
+  gap: 0.4329rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   background: #fff;
-  box-shadow: 0px 4px 4px 0px #b4ceff;
+  box-shadow: 0rem 0.4rem 0.4rem 0rem #b4ceff;
 }
 .bar-main {
-  width: 996px;
-  height: 413px;
+  width: 99.6rem;
+  height: 41.3rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   background: #fff;
-  box-shadow: 0px 7.0496907234191895px 28.198762893676758px 0px
+  box-shadow: 0rem 0.70496907234191895rem 2.8198762893676758rem 0rem
     rgba(0, 0, 0, 0.05);
   display: flex;
 }
 .bargraph-main {
-  width: 950px;
-  height: 413px;
+  width: 92rem;
+  height: 41.3rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   background: #fff;
-  padding: 5px;
-  margin: 10px;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
 .bargraph-2 {
-  width: 589px;
-  height: 302px;
+  width: 56.9rem;
+  height: 30.2rem;
+  margin-right: 1rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   background: #fff;
-  box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+  box-shadow: 0rem 0.4rem 0.4rem 0rem rgba(24, 120, 242, 0.25);
 }
 .second-row {
   display: flex;
-  margin: 10px;
+  margin: 1rem;
 }
 
 .third-row {
   display: flex;
-  margin: 10px;
+  margin: 1rem;
   justify-content: space-between;
 }
 
 .list-1 {
-  width: 316px;
-  height: 302px;
-  margin-left: 10px;
+  width: 31rem;
+  height: 30.2rem;
+  margin-left: 1rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   background: #fff;
-  box-shadow: 0px 4px 4px 0px rgba(24, 120, 242, 0.25);
+  box-shadow: 0rem 0.4rem 0.4rem 0rem rgba(24, 120, 242, 0.25);
 }
+
 .piechart {
-  width: 350px;
-  height: 302px;
+  width: 34rem;
+  height: 30.2rem;
   flex-shrink: 0;
-  border-radius: 10px;
+  border-radius: 1rem;
   background: #fff;
-  box-shadow: 0px 11.997173309326172px 29.99612045288086px 0px
+  box-shadow: 0rem 1.1997173309326172rem 2.999612045288086rem 0rem
     rgba(47, 50, 125, 0.1);
 }
 
-.pie-para .bar-para .double-donut-para .bargraph-2{
+.double-donut-para,
+.pie-para,
+.bar-para,
+.bar2-para {
   color: #333;
 
   /* H5 */
   font-family: Poppins;
-  font-size: 21px;
+  font-size: 2.1rem;
   font-style: normal;
   font-weight: 300;
-  line-height: 100%; /* 21px */
+  line-height: 100%; /* 21rem */
   text-transform: capitalize;
+}
+.row__first > p,.row__second >p,.row__third >p {
+  color: #333;
+  padding: 0.5rem;
+  /* caption */
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 15.4px */
+  text-transform: capitalize;
+}
+.row__first>p{
+  margin-right: 2rem;
+}
+.parag-2{
+  margin-right: 5.8rem;
+}
+  
+
+.circle{
+  height: 1rem;
+  width: 1rem;
+  border-radius: 1rem;
+}
+.oneblue{
+  background-color: blue;
+}
+.onegrey{
+  background-color: #706c6c;
+}
+.oneblack{
+  background-color: #425F57;
+}
+.onepurple{
+  background-color: #8400D5 ;
+}
+.onered{
+  background-color: red;
+}
+.row__first,.row__second,.row__third{
+  display:flex ;
+  align-items: center;
+  justify-content: flex-start;
 }

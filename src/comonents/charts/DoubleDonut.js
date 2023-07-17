@@ -27,7 +27,7 @@ export const DoubleDonut = () => {
       <Doughnut
         data={data}
         optoins={options}
-        style={{ width: "238px", height: "238px" }}
+        style={{ width: "23.8rem", height: "23.8rem" }}
       />
     </div>
   );

@@ -24,7 +24,7 @@ export const DonutChart = () => {
       <Doughnut
         data={data}
         options={options}
-        style={{ width: "196px", height: "196px" }}
+        style={{ width: "20.6rem", height: "20.6rem" }}
       ></Doughnut>
     </div>
   );

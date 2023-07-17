@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
-  margin: 0px;
-  border: 0px;
+  margin: 0rem;
+  border: 0rem;
   box-sizing: border-box;
   font-family: "poppins";
+  font-size: 62.5%;
+}
+@media(max-width:998px)  {
+  *{
+    font-size: 55%;
+  }
+}
+@media(max-width:768px)  {
+  *{
+    font-size: 45%;
+  }
 }
 .App {
   background-color: #E7EFFF;

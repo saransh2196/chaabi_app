@@ -1,39 +1,39 @@
 import React from "react";
 import "./Sidebar.css";
-import { Category, Game, Location, TicketStar } from "../../assets";
+import { Category, Chaabi, Game, Location, TicketStar } from "../../assets";
 
 const Sidebar = () => {
   return (
     <>
       <div className="sidebar">
         <div className="side-top-card">
-          <div className="side-top"></div>
+          <div className="side-top"><img src={Chaabi} alt="chaabi"/></div>
         </div>
         <div className="side-menu">
           <ul>
-            <li className="mainhead">
+            <li className="mainhead hovering">
               <img className="category" src={Category} alt="category" />
-              Dashboard
+              <p className="side-para-top"> Dashboard</p>
             </li>
-            <li>
+            <li className="hovering">
               <img className="category" src={Game} alt="category" />
-              Trainings
+              <p className="side-para">Trainings</p>
             </li>
-            <li>
+            <li className="hovering">
               <img className="category" src={TicketStar} alt="category" />
-              Users
+              <p className="side-para">Users</p>
             </li>
-            <li>
+            <li className="hovering">
               <img className="category" src={Location} alt="category" />
-              Analytics
+              <p className="side-para">Analytics</p>
             </li>
-            <li>
+            <li className="hovering">
               <img className="category" src={Location} alt="category" />
-              My Account
+              <p className="side-para">My Account</p>
             </li>
-            <li>
+            <li className="hovering">
               <img className="category" src={Location} alt="category" />
-              Support
+              <p className="side-para">Support</p>
             </li>
           </ul>
         </div>

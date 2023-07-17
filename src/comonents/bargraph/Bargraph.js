@@ -60,7 +60,7 @@ export const Bargraph = () => {
         data={data.data}
         options={data.options }
         style={{
-          height: "350px",
+          height: "35.0rem",
           width: "auto"
         }}
       />

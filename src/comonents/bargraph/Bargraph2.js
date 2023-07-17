@@ -58,7 +58,7 @@ export const Bargraph2 = () => {
         data={data.data}
         options={data.options}
         style={{
-          height: "250px",
+          height: "25.0rem",
           width: "auto",
         }}
       />

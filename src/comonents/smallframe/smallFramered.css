@@ -1,0 +1,17 @@
+.smalliconred {
+  display: flex;
+  padding: 0.4rem 0.8rem;
+  align-items: center;
+  gap: 0.4rem;
+  width: 5.6rem;
+  border-radius: 0.4px;
+  background: rgba(237, 28, 36, 0.1);
+}
+.smalliconred > p {
+  color: #ed1c24;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

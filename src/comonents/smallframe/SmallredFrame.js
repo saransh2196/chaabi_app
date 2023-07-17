@@ -1,7 +1,8 @@
 import React from "react";
-import { Group, TrendUp } from "../../assets";
+import {  TrendUpred } from "../../assets";
+import "./smallFramered.css";
 import "./SmallFrame.css";
-export const SmallFrame = (props) => {
+export const SmallredFrame = (props) => {
   return (
     <div className="box">
       <div className="main1">
@@ -13,8 +14,8 @@ export const SmallFrame = (props) => {
           <img src={props.image} alt="Group" />
         </div>
         <div className="smicon">
-          <div className="smallicon">
-            <img src={TrendUp} />
+          <div className="smalliconred">
+            <img src={TrendUpred} alt='red' />
             <p>20%</p>
           </div>
           <p>{props.num}</p>
